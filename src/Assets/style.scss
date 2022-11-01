@@ -1,0 +1,31 @@
+.input-wrapper{
+
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 50px 0px ;
+}
+input[type=file]::file-selector-button {
+    background-color: #64c782;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+.table {
+    width: 70%;
+    border: 1px solid rgb(165, 165, 165);
+    th{
+        background-color: rgb(165, 165, 165);
+        border: 1px solid rgb(27, 25, 25);
+    }
+    td{
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+}
+
+.text-right{
+    text-align: right;
+}
